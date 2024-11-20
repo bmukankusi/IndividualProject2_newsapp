@@ -1,4 +1,4 @@
-// File: lib/screens/splash_screen.dart
+// This is the splash screen which is the first screen that appears with a logo when the app is launched.
 import 'package:flutter/material.dart';
 import 'package:newsapp/screens/home_screen.dart';
 
@@ -33,7 +33,7 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset('assets/newsapplogo-removebg-preview.png'), // Add your logo here
+            Image.asset('assets/newsapplogo-removebg-preview.png'), 
             const SizedBox(height: 20),
             const CircularProgressIndicator(),
           ],

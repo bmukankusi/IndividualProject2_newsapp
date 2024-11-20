@@ -27,12 +27,18 @@ A news app built with flutter and newsapi.org, it allows you to search for news 
 
 ## Challenges I faced while building the app and how I solved them
 
-- I faced some issues while fetching the news articles from the API and I solved them by using the try catch block to handle the errors.
-- While testing the app first prototype, I couldn't understand the errors because I haven't used the try and catch block. In order to run smotthly, I added the try and catch block where I fetch the news articles, and throw an exception if the response is not successful.
+- I faced some issues while fetching the news articles from the API and I solved them by throwing exceptions to handle the errors.
 - The urls of the news articles were not loading in the webview and I solved them by using the Uri.parse method to parse the urls.
-- At first, I couldn't load articles urls in emulator which frustrated for a while. But I made research and found out that the problem was in the android manifest file. I added the internet permission in the manifest file and it solved the problem.
+- At first, I couldn't load articles urls in emulator which frustrated me for a while. But I made research and found out that the problem was in the android manifest file. I added the internet permission in the manifest file and it solved the problem.
+
+## How to run the app
+
+- Clone the repository.
+- Get an API key from [NewsAPI](https://newsapi.org/) and replace the myApiKey in the news_service.dart file with your API key.
+- Run the app using your emulator or your phone.
 
 ## Screenshots
+
 
 
 

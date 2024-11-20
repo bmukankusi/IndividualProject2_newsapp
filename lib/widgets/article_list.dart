@@ -1,3 +1,4 @@
+// This is the widget for the news articles list. It's used to display the news articles in a list.
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:newsapp/services/news_service.dart';
@@ -40,7 +41,7 @@ class ArticleList extends StatelessWidget {
       },
     );
   }
-
+// Launches the url in the webview.
   void _launchURL(BuildContext context, String url) async {
     if (url.isEmpty) {
       ScaffoldMessenger.of(context).showSnackBar(

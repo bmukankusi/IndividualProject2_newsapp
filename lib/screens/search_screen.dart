@@ -1,4 +1,4 @@
-// File: lib/screens/search_screen.dart
+// Search screen of the app where you can search for news articles by keyword.
 import 'package:flutter/material.dart';
 import 'package:newsapp/services/news_service.dart';
 import 'package:newsapp/widgets/article_list.dart';

@@ -1,4 +1,4 @@
-// File: lib/screens/home_screen.dart
+// This is the home screen of the app. It's used to show the top headlines from around the world.
 import 'package:flutter/material.dart';
 import 'package:newsapp/services/news_service.dart';
 import 'package:newsapp/widgets/article_list.dart';
@@ -35,6 +35,8 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ],
       ),
+      // Builds the home screen, fetches the top headlines and displays them in a list, 
+      //and loads error message if the headlines are not fetched.
       body: FutureBuilder<List<Article>>(
         future: _topHeadlines,
         builder: (context, snapshot) {

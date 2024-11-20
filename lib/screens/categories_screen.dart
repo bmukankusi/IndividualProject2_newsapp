@@ -1,4 +1,5 @@
-// File: lib/screens/categories_screen.dart
+// This is the categories screen of the app. It's used to show the categories of news articles such as 
+//business, entertainment, health, science, sports, technology, etc.
 import 'package:flutter/material.dart';
 import 'package:newsapp/services/news_service.dart';
 import 'package:newsapp/widgets/article_list.dart';
@@ -29,6 +30,8 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
     super.initState();
     _articles = NewsService().fetchArticlesByCategory(selectedCategory);
   }
+
+  // Builds the categories screen.
 
   @override
   Widget build(BuildContext context) {

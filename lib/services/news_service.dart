@@ -1,4 +1,4 @@
-// File: lib/services/news_service.dart
+// Here is the service class for the news articles. It's used to fetch the news articles from the API.
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:newsapp/utils/constants.dart';
@@ -17,7 +17,7 @@ class Article {
     );
   }
 }
-
+// Fetches the news articles from the API, and throws an exception if the response is not successful.
 class NewsService {
   final String apiKey = myApiKey;
   final String baseUrl = 'https://newsapi.org/v2';

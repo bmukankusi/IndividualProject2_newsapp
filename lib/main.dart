@@ -1,4 +1,4 @@
-// File: lib/main.dart
+// Main entry point of the app. It initializes the app and sets up the navigation.
 import 'package:flutter/material.dart';
 import 'package:newsapp/screens/splash_screen.dart';
 import 'package:newsapp/screens/search_screen.dart';
@@ -17,8 +17,8 @@ class NewsApp extends StatelessWidget {
     return MaterialApp(
       title: 'News App',
       theme: ThemeData(
-        primaryColor: Colors.green, // Green for app bar
-        scaffoldBackgroundColor: Colors.white, // White background
+        primaryColor: Colors.green, 
+        scaffoldBackgroundColor: Colors.white, 
         textTheme: TextTheme(
           titleLarge: const TextStyle(color: Colors.black, fontWeight: FontWeight.bold), // For app bar titles
           bodyLarge: const TextStyle(color: Colors.black), // Default text
@@ -26,10 +26,10 @@ class NewsApp extends StatelessWidget {
           titleMedium: TextStyle(color: Colors.amber.shade700, fontWeight: FontWeight.bold), // Golden yellow for headlines
         ),
         appBarTheme: const AppBarTheme(
-          backgroundColor: Colors.green, // Green app bar
-          foregroundColor: Colors.white, // White text/icons on app bar
+          backgroundColor: Colors.green, 
+          foregroundColor: Colors.white, 
         ),
-        iconTheme: const IconThemeData(color: Colors.white), // White icons
+        iconTheme: const IconThemeData(color: Colors.white), 
       ),
       home: const SplashScreen(),
       routes: {

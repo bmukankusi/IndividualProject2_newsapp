@@ -1,4 +1,5 @@
-// File: lib/models/article.dart
+// This is the model for the news articles. It's used to parse the news articles from the API.
+
 class Article {
   final String? title;
   final String? description;
