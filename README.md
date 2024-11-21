@@ -39,9 +39,7 @@ A news app built with flutter and newsapi.org, it allows you to search for news 
 
 ## Screenshots
 
-![newsapp_splashscreen](https://github.com/user-attachments/assets/398aeade-d37a-47f7-b993-6d6e83451c8e)               ![newsapp_homescreen](https://github.com/user-attachments/assets/756d3df6-f2b6-4f44-9af8-9f4669e716ee)
-
-              ![newsapp_searchscreen](https://github.com/user-attachments/assets/c3a5c1b4-fb20-4cd7-a815-766702056167)
+![newsapp_splashscreen](https://github.com/user-attachments/assets/398aeade-d37a-47f7-b993-6d6e83451c8e)               ![newsapp_homescreen](https://github.com/user-attachments/assets/756d3df6-f2b6-4f44-9af8-9f4669e716ee)  ![newsapp_searchscreen](https://github.com/user-attachments/assets/c3a5c1b4-fb20-4cd7-a815-766702056167)
 
 
 
