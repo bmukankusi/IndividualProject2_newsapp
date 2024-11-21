@@ -1,4 +1,4 @@
-# newsapp
+# Newsapp
 
 A news app built with flutter and newsapi.org, it allows you to search for news articles around the world.
 
